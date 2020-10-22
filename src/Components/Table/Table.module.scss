@@ -1,0 +1,29 @@
+@mixin stateCircle($flag) {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 1px solid #b5b5b5;
+	@if $flag {
+		background-color: red;
+	} @else {
+		background-color: ghostwhite;
+	}
+}
+
+.Table {
+	width: 100%;
+	height: 500px;
+	overflow: auto;
+}
+
+.State {
+	@include stateCircle(false);
+}
+
+.StateTrue {
+	@include stateCircle(true);
+}
+
+.StateFalse {
+	@include stateCircle(false);
+}

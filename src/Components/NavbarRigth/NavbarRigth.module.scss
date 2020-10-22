@@ -1,0 +1,51 @@
+.NavbarRigth {
+	width: 10em;
+	height: 100vh;
+	background-color: #2a2e3f;
+	display: flex;
+	padding: 8px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+	transition: 2s;
+	-webkit-transition: 1.8s;
+	-moz-transition: 1.8s;
+}
+
+.NavbarRigthActivate {
+	width: 90vw;
+}
+
+.NavbarRigthContent {
+	width: 90%;
+	height: 100%;
+	display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+	* {
+		flex: 0 1 auto;
+	}
+}
+
+.NavbarRigthIcon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	z-index: 11;
+}
+
+.NavbarImgIcon {
+	position: absolute;
+	cursor: pointer;
+	left: -30px;
+	background-color: white;
+	border: 1px solid grey;
+	border-radius: 50%;
+	padding: 8px;
+	margin-right: 5px;
+	width: 30px;
+	height: 30px;
+	z-index: 10;
+}

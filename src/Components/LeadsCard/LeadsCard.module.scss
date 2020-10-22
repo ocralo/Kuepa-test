@@ -1,0 +1,145 @@
+@mixin card_color {
+	border: 1px solid #fff;
+	border-radius: 16px;
+	height: 100%;
+	min-height: 100px;
+	min-width: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	div {
+		background-color: #fff;
+		border-radius: 50%;
+		height: 60px;
+		width: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@mixin card_color2(
+	$r1,
+	$g1,
+	$b1,
+	$a1,
+	$r2,
+	$g2,
+	$b2,
+	$a2,
+	$r3,
+	$g3,
+	$b3,
+	$a3
+) {
+	@include card_color;
+	background: rgba(179, 220, 237, 1);
+	background: -moz-linear-gradient(
+		top,
+		rgba($r1, $g2, $b2, $a1) 0%,
+		rgba($r2, $g2, $b2, $a2) 50%,
+		rgba($r3, $g3, $b3, $a3) 100%
+	);
+	background: -webkit-gradient(
+		left top,
+		left bottom,
+		color-stop(0%, rgba($r1, $g1, $b1, $a1)),
+		color-stop(50%, rgba($r2, $g2, $b2, $a2)),
+		color-stop(100%, rgba($r3, $g3, $b3, $a3))
+	);
+	background: -webkit-linear-gradient(
+		top,
+		rgba($r1, $g1, $b1, $a1) 0%,
+		rgba($r2, $g2, $b2, $a2) 50%,
+		rgba($r3, $g3, $b3, $a3) 100%
+	);
+	background: -o-linear-gradient(
+		top,
+		rgba($r1, $g1, $b1, $a1) 0%,
+		rgba($r2, $g2, $b2, $a2) 50%,
+		rgba($r3, $g3, $b3, $a3) 100%
+	);
+	background: -ms-linear-gradient(
+		top,
+		rgba($r1, $g1, $b1, $a1) 0%,
+		rgba($r2, $g2, $b2, $a2) 50%,
+		rgba($r3, $g3, $b3, $a3) 100%
+	);
+	background: linear-gradient(
+		to bottom,
+		rgba($r1, $g1, $b1, $a1) 0%,
+		rgba($r2, $g2, $b2, $a2) 50%,
+		rgba($r3, $g3, $b3, $a3) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=0 );
+	div {
+		p {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 25px;
+			font-weight: 700;
+			margin: 0px;
+			background: -webkit-linear-gradient(
+				top,
+				rgba($r1, $g1, $b1, $a1) 0%,
+				rgba($r2, $g2, $b2, $a2) 50%,
+				rgba($r3, $g3, $b3, $a3) 100%
+			);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+}
+
+.card_color {
+	@include card_color();
+	@include card_color2(
+		179,
+		220,
+		237,
+		1,
+		94,
+		217,
+		255,
+		1,
+		188,
+		224,
+		238,
+		1
+	);
+}
+.card_color-2 {
+	@include card_color();
+	@include card_color2(
+		250,
+		131,
+		110,
+		1,
+		230,
+		106,
+		89,
+		1,
+		212,
+		29,
+		12,
+		1
+	);
+}
+.card_color-3 {
+	@include card_color();
+	@include card_color2(
+		252,
+		234,
+		187,
+		1,
+		255,
+		207,
+		87,
+		1,
+		251,
+		223,
+		147,
+		1
+	);
+}

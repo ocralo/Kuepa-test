@@ -1,15 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styles from './ErrorPage.module.scss';
 
 const ErrorPage = () => (
-  <div className={styles.ErrorPage}>
-    ErrorPage Component
-  </div>
+	<div className={styles.ErrorPage}>
+		<h1>Error Pagina no encontrada</h1>
+	</div>
 );
-
-ErrorPage.propTypes = {};
-
-ErrorPage.defaultProps = {};
 
 export default ErrorPage;
