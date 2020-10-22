@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="489.7" height="431.2" viewBox="0 0 489.7 431.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="list" transform="translate(0 -29.25)">
+    <g id="Grupo_1" data-name="Grupo 1">
+      <path id="Trazado_1" data-name="Trazado 1" class="cls-1" d="M52.7,134.75A52.75,52.75,0,1,0,0,81.95,52.771,52.771,0,0,0,52.7,134.75Zm0-81a28.2,28.2,0,1,1-28.2,28.2A28.231,28.231,0,0,1,52.7,53.75Z"/>
+      <path id="Trazado_2" data-name="Trazado 2" class="cls-1" d="M52.7,297.55A52.7,52.7,0,1,0,0,244.85,52.771,52.771,0,0,0,52.7,297.55Zm0-80.9a28.2,28.2,0,1,1-28.2,28.2A28.231,28.231,0,0,1,52.7,216.65Z"/>
+      <path id="Trazado_3" data-name="Trazado 3" class="cls-1" d="M52.7,460.45A52.7,52.7,0,1,0,0,407.75,52.771,52.771,0,0,0,52.7,460.45Zm0-81a28.2,28.2,0,1,1-28.2,28.2A28.231,28.231,0,0,1,52.7,379.45Z"/>
+      <path id="Trazado_4" data-name="Trazado 4" class="cls-1" d="M175.9,94.25H477.4a12.3,12.3,0,0,0,0-24.6H175.9a12.3,12.3,0,1,0,0,24.6Z"/>
+      <path id="Trazado_5" data-name="Trazado 5" class="cls-1" d="M175.9,257.15H477.4a12.3,12.3,0,0,0,0-24.6H175.9a12.3,12.3,0,0,0,0,24.6Z"/>
+      <path id="Trazado_6" data-name="Trazado 6" class="cls-1" d="M175.9,419.95H477.4a12.3,12.3,0,1,0,0-24.6H175.9a12.3,12.3,0,1,0,0,24.6Z"/>
+    </g>
+  </g>
+</svg>
